@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.eagle{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: pink;
+    color: red;
+}
+
+.hel{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+    font-family: sans-serif;
+}
+
+.container{
+    border: 2px solid black;
+    padding: 20px;
+    width: 350px;
+    background-color: green;
+    box-shadow: 0 0 30px  green;
+    border-radius: 20px;
+}
+
+.head h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.input label{
+    display: block;
+    font-size: 1.4rem;
+    color: rgb(236, 232, 4);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#input{
+    width: 90%;
+    display: block;
+    height: 40px;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: red;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#weight-btn{
+    display: block;
+    width: 60%;
+    margin-left: 50px;
+    height: 30px;
+    font-size: 1.2rem;
+   margin-bottom: 10px;
+   border: none;
+   outline: none;
+   background-color: black;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.3s ease-in-out;
+}
+
+#weight-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.output{
+   text-align: center;
+   background-color: rgb(107, 59, 0);
+   color: white;
+   padding: 10px;
+   font-size: 1.1rem;
+}
+
+#output{
+    font-size: 1.5rem;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: red;
+    background-color: pink;
+}
+
+
+@media (max-width: 378px) {
+    .eagle{
+        font-size: 1.3rem;
+    }
+    
+    .container{
+       width: 250px;
+    }
+    
+    .head h1{
+        font-size: 0.8rem;
+    }
+    
+    .input label{
+        font-size: 1.1rem;
+    }
+    
+    #input{
+        font-size: 0.8rem
+    }
+    
+    #weight-btn{
+        font-size: 1rem
+    }
+    
+    .output{
+      font-size: 0.7rem;
+    }
+    
+    #output{
+        font-size: 1.1rem;
+    }
+}
+
